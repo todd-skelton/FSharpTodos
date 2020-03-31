@@ -19,3 +19,12 @@ Server/Client todo written with Feliz for the client, Giraffe for the server, an
 - Feliz.MaterialUI: [https://cmeeren.github.io/Feliz.MaterialUI](https://cmeeren.github.io/Feliz.MaterialUI)
 - Giraffe: [https://github.com/giraffe-fsharp/Giraffe](https://github.com/giraffe-fsharp/Giraffe)
 - Fable.Remoting: [https://zaid-ajaj.github.io/Fable.Remoting/](https://zaid-ajaj.github.io/Fable.Remoting/)
+
+## Coming Soon
+- Elmish Client
+- Elmish Client/Server/Communication with Thoth.Fetch
+
+### Let me know if you want to see anything else!
+- Authentication
+- Database Integration
+- Event Sourcing
