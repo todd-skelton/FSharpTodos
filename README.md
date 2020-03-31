@@ -1,6 +1,8 @@
 # FSharpTodos
 Todo application implemented with various F# libraries.
 
+![Todos](fsharp-todos.gif)
+
 ## FelizClientOnly
 Client-side only todo written with Feliz and Material UI
 
