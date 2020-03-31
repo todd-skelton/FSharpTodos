@@ -16,8 +16,10 @@ group Client
 
     nuget Fable.Browser.Dom
     nuget Fable.Core ~> 3
+    nuget Fable.MaterialUI.Icons
     nuget Fable.Remoting.Client ~> 5
     nuget Feliz
+    nuget Feliz.MaterialUI
 
 group Build
     source https://api.nuget.org/v3/index.json

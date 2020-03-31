@@ -729,6 +729,9 @@ NUGET
       FSharp.Core (>= 4.6.2)
     Fable.Core (3.1.5)
       FSharp.Core (>= 4.7)
+    Fable.MaterialUI.Icons (1.3)
+      Fable.Core (>= 3.0)
+      Fable.React (>= 5.2.1)
     Fable.Parsimmon (4.1)
       Fable.Core (>= 3.0)
       FSharp.Core (>= 4.6.2)
@@ -749,7 +752,10 @@ NUGET
       Fable.Core (>= 3.1.3)
       Fable.React (>= 5.3.2)
       FSharp.Core (>= 4.7)
-    FSharp.Core (4.7)
+    Feliz.MaterialUI (0.14)
+      Feliz (>= 0.71 < 1.0)
+      FSharp.Core (>= 4.7.1 < 4.8)
+    FSharp.Core (4.7.1)
 
 GROUP Server
 STORAGE: NONE

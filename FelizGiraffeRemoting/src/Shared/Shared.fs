@@ -6,10 +6,16 @@ type Todo =
       IsCompleted: bool }
 
 module Route =
-    let builder typeName methodName = sprintf "/api/%s/%s" typeName methodName
+    open System.Text.RegularExpressions
 
-/// A type that specifies the communication protocol between client and server
-/// to learn more, read the docs at https://zaid-ajaj.github.io/Fable.Remoting/src/basics.html
+    let toKebabCase input =
+        match input with
+        | null -> input
+        | "" -> input
+        | _ -> Regex.Replace(input, @"([a-z0-9])([A-Z])", "$1-$2").ToLower()
+
+    let builder typeName methodName = sprintf "/api/%s/%s" (typeName |> toKebabCase) (methodName |> toKebabCase)
+
 type TodosApi =
     { GetTodos: unit -> Async<Todo list>
       CreateTodo: string -> Async<unit>
